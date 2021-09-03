@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "mix --production",
+    "dev": "mix watch"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "laravel-mix": "^6.0.25"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.3.3",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.8"
+  }
+}
