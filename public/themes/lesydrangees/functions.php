@@ -186,17 +186,18 @@ function lesydrangees_enqueue_styles_scripts()
     wp_register_style('menu_icon', get_template_directory_uri() . '/assets/css/menu_icon.css');
     $dependencies[] = 'menu_icon';
 
-    wp_register_style('aos', get_template_directory_uri() . '/assets/css/aos.css');
-    $dependencies[] = 'aos';
-    wp_enqueue_script('lesydrangees-script-aos', get_template_directory_uri() . '/assets/js/aos.js', 'lesydrangees-script-aos', '1', true);
-
+    if (!is_page('contact')) {
+        wp_register_style('aos', get_template_directory_uri() . '/assets/css/aos.css');
+        $dependencies[] = 'aos';
+        wp_enqueue_script('lesydrangees-script-aos', get_template_directory_uri() . '/assets/js/aos.js', 'lesydrangees-script-aos', '1', true);
+    }
 
     if (is_front_page()) {
         wp_register_style('accueil', get_template_directory_uri() . '/assets/css/landing.css');
         $dependencies[] = 'accueil';
         wp_enqueue_script('lesydrangees-script-home', get_template_directory_uri() . '/assets/js/main.js', 'lesydrangees-script-aos', '1', true);
     } else if (is_home() || is_single()) {
-        if(is_home()){
+        if (is_home()) {
             wp_register_style('blog_general', get_template_directory_uri() . '/assets/css/blog_general.css');
             $dependencies[] = 'blog_general';
         }
@@ -219,7 +220,7 @@ function lesydrangees_enqueue_styles_scripts()
         wp_register_style('prestation', get_template_directory_uri() . '/assets/css/prestation.css');
         $dependencies[] = 'prestation';
         wp_enqueue_script('lesydrangees-script-prestation', get_template_directory_uri() . '/assets/js/main_prestation.js', 'lesydrangees-script-aos', '1', true);
-    } else if (is_page("politique-de-confidentialite")){
+    } else if (is_page("politique-de-confidentialite")) {
         wp_enqueue_script('lesydrangees-script-politique_confidentialite', get_template_directory_uri() . '/assets/js/main_mentions_legales.js', 'lesydrangees-script-aos', '1', true);
     }
 
