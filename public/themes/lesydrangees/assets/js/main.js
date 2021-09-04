@@ -2,8 +2,8 @@ let menuIcon = document.getElementById("plate2");
 let navLinks = document.getElementById("navLinks");
 let nav = document.getElementById("nav");
 
-if (navigator.userAgent.indexOf("Firefox") != -1) {
-    menuIcon.classList.remove("burger");
+if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf("Safari") != -1 || navigator.userAgent.indexOf("Apple") != -1) {
+  menuIcon.classList.remove("burger");
 }
 
 menuIcon.addEventListener("click", function () {
