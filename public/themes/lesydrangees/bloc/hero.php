@@ -258,7 +258,7 @@
                     <span class="_yd_title_letter _yd_title_letters_44 uppercase">&nbsp;</span>
                 </h1>
                 <div id="#_yd_media_social">
-                    <a class="_yd_title_middle relative" role="button" rel="noopener">
+                    <a class="_yd_title_middle relative" role="button" aria-label="Boutton de contact" rel="noopener">
                         <svg class="absolute" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              viewBox="0 0 512 512" xml:space="preserve">
@@ -279,7 +279,7 @@
                             c-126.8,0-230,103.2-230,230s103.2,230,230,230s230-103.2,230-230S382.8,25.9,256,25.9z"/>
                         </svg>
                     </a>
-                    <a class="_yd_title_middle_others _yd_email relative" href="mailto:les.yd.rangees@gmail.com"
+                    <a class="_yd_title_middle_others _yd_email relative" role="link" aria-label="Boutton d'accès adresse email" href="mailto:les.yd.rangees@gmail.com"
                        rel="noopener noreferrer" target="_blank">
                         <svg class="absolute" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -301,7 +301,7 @@
                             </g>
                     </svg>
                     </a>
-                    <a class="_yd_title_middle_others _yd_facebook relative"
+                    <a class="_yd_title_middle_others _yd_facebook relative" role="link" aria-label="Boutton d'accès facebook"
                        href="https://www.facebook.com/les.yd.rangees/" rel="noopener noreferrer" target="_blank">
                         <svg class="absolute" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -322,7 +322,7 @@
                             </g>
                     </svg>
                     </a>
-                    <a class="_yd_title_middle_others _yd_instagram relative"
+                    <a class="_yd_title_middle_others _yd_instagram relative" role="link" aria-label="Boutton d'accès instagram"
                        href="https://www.instagram.com/les.yd.rangees/" rel="noopener noreferrer" target="_blank">
                         <svg class="absolute" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -360,7 +360,7 @@
                             </g>
                     </svg>
                     </a>
-                    <a class="_yd_title_middle_others _yd_phone relative" href="tel:+33674562701"
+                    <a class="_yd_title_middle_others _yd_phone relative" href="tel:+33674562701" role="link" aria-label="Boutton d'accès téléphone"
                        rel="noopener noreferrer" target="_blank">
                         <svg class="absolute" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
