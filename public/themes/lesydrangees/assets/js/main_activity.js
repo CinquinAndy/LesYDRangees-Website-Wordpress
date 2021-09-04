@@ -1,12 +1,15 @@
 let menuIcon = document.getElementById("plate2");
 let navLinks = document.getElementById("navLinks");
-let _btn_arrow_left = document.getElementById("_btn_arrow_left");
-let _btn_arrow_right = document.getElementById("_btn_arrow_right");
-let compteur = 1;
 
 if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf("Safari") != -1 || navigator.userAgent.indexOf("Apple") != -1) {
   menuIcon.classList.remove("burger");
 }
+
+menuIcon.addEventListener("click", function () {
+  navLinks.classList.toggle("_yd_fade_visible");
+  navLinks.classList.toggle("_yd_fade_invisible");
+});
+
 
 window.onload = () => {
     AOS.init({
