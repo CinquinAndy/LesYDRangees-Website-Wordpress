@@ -34,7 +34,8 @@
                     les.yd.rangees@gmail.com
                 </p>
                 <br>
-                <a class="link-animation" href="/contact.html" rel="noopener">page contact</a>
+                <a class="link-animation" href="<?= esc_url(get_permalink(get_page_by_title('Contact'))) ?>"
+                   rel="noopener">page contact</a>
             </div>
         </div>
         <div class="mt-10 lg:mt-0 text-center text-yd_purple-600">
@@ -59,7 +60,7 @@
     </div>
 </footer>
 <div class="w-full py-10 text-center text-yd_purple-800 text-sm lg:text-lg uppercase">
-    <a class="link-animation font-bold" href="/mentions_legales.html" rel="noopener">Mentions Légales</a>
+    <a class="link-animation font-bold" href="<?= esc_url(get_permalink(get_page_by_title('Politique de confidentialité'))) ?>" rel="noopener">Mentions Légales</a>
     <p>
         Developed by <a class="link-animation font-bold" href="https://andy-cinquin.fr/" rel="noopener">Andy CINQUIN</a>
         & Designed by <a

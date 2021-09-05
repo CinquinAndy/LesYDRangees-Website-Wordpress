@@ -95,4 +95,10 @@
         </form>
     </div>
 </section>
+<section id="erreur" class="_yd_fade _yd_fade_invisible_popup fixed -bottom-60px p-4 flex justify-center items-center rounded shadow-2xl bg-yd_pink-600 z-50 flex-col transition-all ml-10 mt-10">
+    Erreur !
+</section>
+<section id="fine" class="_yd_fade _yd_fade_invisible_popup fixed -bottom-60px p-4 flex justify-center items-center rounded shadow-2xl bg-yd_blue-600 z-50 flex-col transition-all ml-10 mt-10">
+    Mail envoyé !
+</section>
 <?php get_footer(); ?>
