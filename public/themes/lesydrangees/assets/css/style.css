@@ -96,6 +96,20 @@ a:focus, a:hover, button:focus, button:hover {
   font-weight: 600
 }
 
+._yd_fade {
+  pointer-events: none;
+  transition: opacity ease-in-out 1.2s, z-index ease-in-out 1.2s, right ease-in-out 1.2s, bottom ease-in-out 1.2s;
+}
+
+._yd_fade_invisible_popup {
+  opacity: 0;
+}
+
+._yd_fade_invisible_popup_placement {
+  right: 10px !important;
+  bottom: 10px !important;
+}
+
 @media (max-width: 1023px) {
   ._yd_fade_invisible {
     pointer-events: none;
