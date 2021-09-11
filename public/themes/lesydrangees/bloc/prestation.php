@@ -1,36 +1,3 @@
-<!--Group::make("Groupe première section", "first_section")->fields(-->
-<!--[-->
-<!--Text::make('Titre', 'title')->required()->placeholder("RENCONTRONS-NOUS !"),-->
-<!--WysiwygEditor::make('Texte de présentation', 'description')->toolbar('basic')->mediaUpload(false)->tabs('visual'),-->
-<!--]-->
-<!--)->required(),-->
-<!--Group::make("Groupe deuxième section [ Fonctionnement ]", "second_section")->fields(-->
-<!--[-->
-<!--Text::make('Titre', 'title')->required()->placeholder("COMMENT ÇA MARCHE ?"),-->
-<!--WysiwygEditor::make('Première étape', 'first_description')->toolbar('basic')->mediaUpload(false)->tabs('visual'),-->
-<!--WysiwygEditor::make('Deuxième étape', 'second_description')->toolbar('basic')->mediaUpload(false)->tabs('visual'),-->
-<!--WysiwygEditor::make('Troisième étape', 'third_description')->toolbar('basic')->mediaUpload(false)->tabs('visual'),-->
-<!--WysiwygEditor::make('Quatrième étape', 'fourth_description')->toolbar('basic')->mediaUpload(false)->tabs('visual'),-->
-<!--]-->
-<!--)->required(),-->
-<!--Group::make("Toutes les préstations", "third_section")->fields(-->
-<!--[-->
-<!--Repeater::make('Prestation', 'presta')->required()->fields([-->
-<!--Text::make('Titre', 'title')->required()->placeholder("HOME ORGANIZING RETOUR À L'ESSENTIEL"),-->
-<!--WysiwygEditor::make('Description', 'description')->toolbar('basic')->mediaUpload(false)->tabs('visual'),-->
-<!--WysiwygEditor::make('Prix', 'price')->toolbar('basic')->mediaUpload(false)->tabs('visual'),-->
-<!--Image::make('Image', 'img')->required()-->
-<!--]),-->
-<!--]-->
-<!--)->required(),-->
-<!--Group::make('Les options', 'fourth_section')->fields([-->
-<!--Repeater::make('Option', 'option')->required()->fields([-->
-<!--Text::make('Titre', 'title')->required()->placeholder("HOME ORGANIZING RETOUR À L'ESSENTIEL"),-->
-<!--WysiwygEditor::make('Description', 'description')->toolbar('basic')->mediaUpload(false)->tabs('visual'),-->
-<!--WysiwygEditor::make('Prix', 'price')->toolbar('basic')->mediaUpload(false)->tabs('visual')-->
-<!--]),-->
-<!--])->required()-->
-
 <?php
 $first_section = get_field('first_section');
 $second_section = get_field('second_section');
@@ -73,15 +40,16 @@ $fourth_section = get_field('fourth_section');
         </div>
         <div class="hidden lg:block lg:col-span-2 lg:row-span-3"></div>
         <div
-            class="lg:col-span-5 lg:row-span-3 text-yd_purple-600 relative lg:text-xl text-lg row-start-3 lg:row-auto py-8"
-            data-aos-once="true" data-aos="flip-up" data-aos-delay="400">
+            class="lg:col-span-5 lg:row-span-3 text-yd_purple-600 relative lg:text-xl text-lg row-start-2 lg:row-auto py-8"
+            data-aos-once="true" data-aos="flip-up" data-aos-delay="200">
             <div class="pl-4 lg:pl-32 text-left">
-                <?= $second_section['third_description'] = str_replace("<strong>", "<strong class='text-yd_pink-600 font-bold'>", $second_section["third_description"]) ?>
+                <?= $second_section['second_description'] = str_replace("<strong>", "<strong class='text-yd_pink-600 font-bold'>", $second_section["second_description"]) ?>
             </div>
-            <img class="w-48 h-48 absolute top-1/2 left-0 transform -translate-y-2/3 opacity-25"
-                 src="<?= get_template_directory_uri() ?>/assets/images/numbers/3.svg"
-                 alt="Third part of Home & Office organizing">
+            <img class="w-48 h-48 absolute top-1/2 right-0 lg:left-0 transform -translate-y-2/3 opacity-25"
+                 src="<?= get_template_directory_uri() ?>/assets/images/numbers/2.svg"
+                 alt="Second part of Home & Office organizing">
         </div>
+
         <div class="hidden lg:block col-span-12 row-span-1 text-center mt-16 mb-32">
             <div class="w-full flex justify-center items-center relative">
                 <hr class="w-screen _yd_hr_gradient"/>
@@ -97,14 +65,14 @@ $fourth_section = get_field('fourth_section');
         </div>
         <div class="lg:block lg:col-span-1 lg:row-span-3"></div>
         <div
-            class="lg:col-span-5 lg:row-span-3 text-yd_purple-600 relative lg:text-xl text-lg row-start-2 lg:row-auto py-8"
-            data-aos-once="true" data-aos="flip-up" data-aos-delay="200">
+            class="lg:col-span-5 lg:row-span-3 text-yd_purple-600 relative lg:text-xl text-lg row-start-3 lg:row-auto py-8"
+            data-aos-once="true" data-aos="flip-up" data-aos-delay="400">
             <div class="pl-4 lg:pl-32 text-left">
-                <?= $second_section['second_description'] = str_replace("<strong>", "<strong class='text-yd_pink-600 font-bold'>", $second_section["second_description"]) ?>
+                <?= $second_section['third_description'] = str_replace("<strong>", "<strong class='text-yd_pink-600 font-bold'>", $second_section["third_description"]) ?>
             </div>
-            <img class="w-48 h-48 absolute top-1/2 right-0 lg:left-0 transform -translate-y-2/3 opacity-25"
-                 src="<?= get_template_directory_uri() ?>/assets/images/numbers/2.svg"
-                 alt="Second part of Home & Office organizing">
+            <img class="w-48 h-48 absolute top-1/2 left-0 transform -translate-y-2/3 opacity-25"
+                 src="<?= get_template_directory_uri() ?>/assets/images/numbers/3.svg"
+                 alt="Third part of Home & Office organizing">
         </div>
         <div class="lg:block lg:col-span-1 lg:row-span-3"></div>
         <div
