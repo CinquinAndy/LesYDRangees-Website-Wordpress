@@ -93,6 +93,18 @@ function traitement_formulaire_contact()
                                 exit();
                             }
                         }
+                        if ($_POST['ville'] != "") {
+                            $ville = trim($_POST['ville']);
+                            $ville = strip_tags($ville);
+                            $ville = filter_var($ville, FILTER_SANITIZE_STRING);
+                            $ville = htmlspecialchars($ville);
+
+                            if (!preg_match($string_exp, $ville)) {
+                                $url = add_query_arg('erreur', 'ville-invalide', wp_get_referer());
+                                wp_safe_redirect($url);
+                                exit();
+                            }
+                        }
                         if ($_POST['message'] != "") {
                             $message = trim($_POST['message']);
                             $message = strip_tags($message);
@@ -114,10 +126,6 @@ function traitement_formulaire_contact()
                 <body>
                 <b>Détail du mail en provenance de https://lesydrangees.com</b>
                 <ul>
-                    <li>
-                        <b>Sujet</b>
-                        <p>" . $sujet . "</p>
-                    </li>
                     <br>
                     <li>
                         <b>Nom - Prenom</b>
@@ -132,6 +140,10 @@ function traitement_formulaire_contact()
                     <li>
                         <b>Telephone</b>
                         <p>" . $tel . "</p>
+                    </li>
+                    <li>
+                        <b>Ville</b>
+                        <p>" . $ville . "</p>
                     </li>
                     <br>
                     <li>

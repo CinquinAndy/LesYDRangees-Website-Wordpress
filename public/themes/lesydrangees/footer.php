@@ -35,12 +35,12 @@
                 </p>
                 <br>
                 <a class="link-animation" href="<?= esc_url(get_permalink(get_page_by_title('Contact'))) ?>"
-                   rel="noopener">page contact</a>
+                   rel="noopener">Contactez-nous !</a>
             </div>
         </div>
         <div class="mt-10 lg:mt-0 text-center text-yd_purple-600">
             <h2 class="font-bold text-lg lg:text-xl text-yd_purple-800">
-                suivez-nous
+                Suivez-nous !
             </h2>
             <div class="font-bold mt-2 lg:mt-10">
                 <div class="w-full flex justify-center items-center">
@@ -62,10 +62,12 @@
 <div class="w-full py-10 text-center text-yd_purple-800 text-sm lg:text-lg uppercase">
     <a class="link-animation font-bold" href="<?= esc_url(get_permalink(get_page_by_title('Politique de confidentialité'))) ?>" rel="noopener">Mentions Légales</a>
     <p>
-        Developed by <a class="link-animation font-bold" href="https://andy-cinquin.fr/" rel="noopener">Andy CINQUIN</a>
-        & Designed by <a
-            class="link-animation font-bold" href="#" rel="noopener">Pauline
-            GOUVERNET</a>
+        Developed by <a class="link-animation font-bold" href="https://www.malt.fr/profile/andycinquin/" rel="noopener noreferrer">Andy CINQUIN</a>
+        & Designed by
+<!--        <a-->
+<!--            class="link-animation font-bold" href="#" rel="noopener">-->
+<!--        </a>-->
+            Pauline GOUVERNET
     </p>
 </div>
 <div class="w-full flex justify-center items-center">
