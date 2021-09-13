@@ -81,7 +81,7 @@
   position: absolute;
   content: '';
   /* todo colors [ si demande d'autre changement ] */
-  background: #27e7b1;
+  background: #27c1e7;
   width: 100%;
   height: 100%;
   top: 0;
@@ -96,7 +96,7 @@
   position: absolute;
   background: transparent;
   /* todo colors [ si demande d'autre changement ] */
-  border: 3px solid #22876a;
+  border: 3px solid #227287;
   z-index: 30
 }
 
