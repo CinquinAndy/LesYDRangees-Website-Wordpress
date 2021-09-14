@@ -80,8 +80,8 @@
 ._yd_circle_bot div::after {
   position: absolute;
   content: '';
-  /* todo colors [ si demande d'autre changement ] */
-  background: #27e7c7;
+  /* todo colors - 400 [ si demande d'autre changement ] */
+  background: #0fffd7;
   width: 100%;
   height: 100%;
   top: 0;
@@ -95,8 +95,8 @@
 #_yd-filled-box div {
   position: absolute;
   background: transparent;
-  /* todo colors [ si demande d'autre changement ] */
-  border: 3px solid #228776;
+  /* todo colors - 600 [ si demande d'autre changement ] */
+  border: 3px solid #00a88c;
   z-index: 30
 }
 
