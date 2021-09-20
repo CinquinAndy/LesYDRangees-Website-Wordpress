@@ -31,8 +31,8 @@ function traitement_formulaire_contact()
     unset($_GET['error'], $_GET['fine']);
     if (isset($_POST['envoyer-message']) && isset($_POST['message-verif'])) {
         $string_exp = "/^[A-Za-z0-9 .'-]+$/";
-        $email_to = "cinquin.andy@gmail.com";
-        $email_subject = "Mail - lesydrangees.com";
+        $email_to = "les.yd.rangees@gmail.com";
+        $email_subject = "lesydrangees.com - Mail de contact";
         $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
         $phone_exp = '/^\s*(?:\+?(\d{1,3}))?([-. (]*(\d{3})[-. )]*)?((\d{3})[-. ]*(\d{2,4})(?:[-.x ]*(\d+))?)\s*$/';
 

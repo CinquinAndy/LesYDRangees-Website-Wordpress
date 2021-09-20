@@ -25,7 +25,7 @@
   height: 80%;
   background-color: #fcf7f9;
   /* todo colors - 500 [ si demande d'autre changement ] */
-  border: 2px solid #00dbb7;
+  border: 2px solid #00D2D2;
   transform: scale(1.09) translateY(-45%);
   z-index: 10
 }
