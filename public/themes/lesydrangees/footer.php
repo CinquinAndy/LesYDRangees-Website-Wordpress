@@ -24,14 +24,16 @@
                 Contact
             </h2>
             <div class="font-bold mt-2 lg:mt-10">
-                <p>
+                <p class="font-bold">
                     Laura & Tamara
                 </p>
                 <p>
-                    06 74 56 27 01 - 06 50 10 31 70
+                    <a href="tel:+33674562701">06 74 56 27 01</a>
+                    &nbsp;-&nbsp;
+                    <a href="tel:+33650103170">06 50 10 31 70</a>
                 </p>
                 <p>
-                    les.yd.rangees@gmail.com
+                    <a href="mailto:les.yd.rangees@gmail.com">les.yd.rangees@gmail.com</a>
                 </p>
                 <br>
                 <a class="link-animation" href="<?= esc_url(get_permalink(get_page_by_title('Contact'))) ?>"
@@ -59,7 +61,7 @@
         </div>
     </div>
 </footer>
-<div class="w-full py-10 text-center text-yd_purple-800 text-sm lg:text-lg uppercase">
+<div class="w-full py-10 text-center text-yd_purple-800 text-xs uppercase">
     <a class="link-animation font-bold" href="<?= esc_url(get_permalink(get_page_by_title('Politique de confidentialité'))) ?>" rel="noopener">Mentions Légales</a>
     <p>
         Developed by <a class="link-animation font-bold" href="https://www.malt.fr/profile/andycinquin/" rel="noopener noreferrer">Andy CINQUIN</a>
