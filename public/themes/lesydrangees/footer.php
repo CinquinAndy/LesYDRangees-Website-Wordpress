@@ -25,12 +25,12 @@
             </h2>
             <div class="font-bold mt-2 lg:mt-10">
                 <p class="font-bold">
-                    Laura & Tamara
+                    Laura & Virginie
                 </p>
                 <p>
                     <a href="tel:+33674562701">06 74 56 27 01</a>
                     &nbsp;-&nbsp;
-                    <a href="tel:+33650103170">06 50 10 31 70</a>
+                    <a href="tel:+33650103170">07 88 19 16 10</a>
                 </p>
                 <p>
                     <a href="mailto:les.yd.rangees@gmail.com">les.yd.rangees@gmail.com</a>
