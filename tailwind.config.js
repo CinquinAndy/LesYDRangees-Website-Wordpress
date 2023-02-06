@@ -1,9 +1,6 @@
 module.exports = {
-  mode: 'jit',
-  purge: {
-    content: ['./public/themes/lesydrangees/**/*.php'],
-    safelist: ["yd_purple-700"]
-  },
+  content: ['./public/themes/lesydrangees/**/*.php'],
+  safelist: ["yd_purple-700"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
@@ -135,7 +132,7 @@ module.exports = {
         "80vw": "80vw",
         "80vh": "80vh",
         "90vh": "90vh",
-        "80p":"80%"
+        "80p": "80%"
       },
     },
   },

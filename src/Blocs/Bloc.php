@@ -2,7 +2,7 @@
 
 namespace App\Blocs;
 
-use WordPlate\Acf\Location;
+use Extended\Acf\Location;
 
 abstract class Bloc
 {
@@ -25,7 +25,7 @@ abstract class Bloc
             'title' => static::$name . ' Bloc',
             'fields' => static::fields(),
             'location' => array_merge([
-                Location::if('block', 'acf/' . static::$name)
+                Location::where('block', 'acf/' . static::$name)
             ], static::location())
         ]);
     }

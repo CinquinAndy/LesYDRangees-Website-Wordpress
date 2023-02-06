@@ -2,3 +2,5 @@ node_modules
 vendor
 .env
 .idea
+composer.lock
+package-lock.json

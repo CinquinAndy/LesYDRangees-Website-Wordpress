@@ -2,12 +2,12 @@
 
 namespace App\Blocs;
 
-use WordPlate\Acf\Fields\Group;
-use WordPlate\Acf\Fields\Image;
-use WordPlate\Acf\Fields\Link;
-use WordPlate\Acf\Fields\Text;
-use WordPlate\Acf\Fields\Textarea;
-use WordPlate\Acf\Fields\WysiwygEditor;
+use Extended\Acf\Fields\Group;
+use Extended\Acf\Fields\Image;
+use Extended\Acf\Fields\Link;
+use Extended\Acf\Fields\Text;
+use Extended\Acf\Fields\Textarea;
+use Extended\Acf\Fields\WysiwygEditor;
 
 class BlocActivite extends Bloc
 {
