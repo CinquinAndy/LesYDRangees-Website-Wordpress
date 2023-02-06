@@ -2,13 +2,13 @@
 
 namespace App\Blocs;
 
-use Extended\Acf\Fields\Group;
-use Extended\Acf\Fields\Image;
-use Extended\Acf\Fields\Link;
-use Extended\Acf\Fields\Repeater;
-use Extended\Acf\Fields\Text;
-use Extended\Acf\Fields\Textarea;
-use Extended\Acf\Fields\WysiwygEditor;
+use Extended\ACF\Fields\Group;
+use Extended\ACF\Fields\Image;
+use Extended\ACF\Fields\Link;
+use Extended\ACF\Fields\Repeater;
+use Extended\ACF\Fields\Text;
+use Extended\ACF\Fields\Textarea;
+use Extended\ACF\Fields\WysiwygEditor;
 
 class BlocPrestation extends Bloc
 {

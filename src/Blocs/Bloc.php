@@ -2,7 +2,7 @@
 
 namespace App\Blocs;
 
-use Extended\Acf\Location;
+use Extended\ACF\Location;
 
 abstract class Bloc
 {

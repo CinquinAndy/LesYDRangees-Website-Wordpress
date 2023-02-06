@@ -18,14 +18,14 @@
     "require": {
         "php": "8.2.2",
         "vinkla/extended-acf": "13.2.0",
-        "composer/installers": "2.2",
+        "composer/installers": "2.1",
         "johnpbloch/wordpress-core-installer": "2.0",
         "johnpbloch/wordpress-core": "6.1.1",
         "roots/bedrock-autoloader": "1.0.4",
         "roots/wp-password-bcrypt": "1.1.0",
-        "symfony/http-foundation": "6.2.6",
-        "symfony/var-dumper": "6.2.5",
-        "vlucas/phpdotenv": "5.5.0",
+        "symfony/http-foundation": "v6.2.6",
+        "symfony/var-dumper": "v6.2.5",
+        "vlucas/phpdotenv": "v5.5.0",
         "ext-curl": "*",
         "ext-json": "*"
     },
