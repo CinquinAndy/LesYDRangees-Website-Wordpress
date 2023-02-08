@@ -4,5 +4,3 @@ vendor
 .idea
 composer.lock
 package-lock.json
-public/plugins
-public/mu-plugins
